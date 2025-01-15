@@ -1,0 +1,3 @@
+# F# Mutable Variable Bug
+
+This repository demonstrates a subtle bug involving mutable variables and function scope in F#. The code in `bug.fs` attempts to modify global mutable variables within a function, but the changes are not reflected outside of the function's scope. The `bugSolution.fs` file provides a corrected version that uses return values instead of relying on mutable variable modification.
